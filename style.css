@@ -1,0 +1,29 @@
+/* Page Set up Start */
+*, html, body{
+  font-family: 'Vollkorn', serif;
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+/* Page Set up END */
+
+
+
+  li,ul{
+    text-decoration: none;
+    list-style : none;
+  }
+      
+  nav{
+    background-color: rgb(71, 71, 71);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    color: white;
+  }
+
+   
+
+  
