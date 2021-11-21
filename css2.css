@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+.awardsGrid{
+display :grid;
+grid-template-columns: repeat(2 ,600px);
+margin: 50px 10px 10px 100px;
+}
+.awardsGrid .p{
+  font-size: 33px;
+  font-family: 'Poppins', sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 37px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.chefsrow1{
+  display: grid;
+  grid-template-columns: repeat(2,50%); 
+  grid-template-areas: "sidebar content";
+  
+}
+
+.text1{
+    
+    grid-area: content;
+    text-align: center;
+    font-size: 33px;
+    letter-spacing:-0.015em;
+    line-height:90px ;
+    margin: 55px 25px 45px 45px;
+    }
+    #chefa{
+        
+        width: 667px;
+       justify-content: center;
+
+    }
+
+    .chefsrow2{
+        display: grid;
+        grid-template-columns: repeat(2,50%); 
+        grid-template-areas: " content sidebar";
+        
+      }
+      
+      .text2{
+          
+          grid-area: content;
+          text-align: center;
+          font-size: 27px;
+          letter-spacing:-0.015em;
+          line-height:75px ;
+          margin: 15px 25px 45px 45px;
+          }
+          #chefb{
+
+              width: 672px;
+             justify-content: center;
+      
+          }
+          .chefsrow3{
+            display: grid;
+            grid-template-columns: repeat(2,50%); 
+            grid-template-areas: "sidebar content";
+            
+          }
+          
+          .text3{
+              
+            grid-area: content;
+            text-align: center;
+            font-size: 27px;
+            letter-spacing:-0.015em;
+            line-height:90px ;
+            margin: 55px 25px 45px 45px;
+              }
+              #chefc{
+                  
+                  width: 667px;
+                 justify-content: center;
+          
+              }
+          
+             #mainphoto{
+               width: 100%;
+             }
+             .storyrow1{
+              display: grid;
+              grid-template-columns: repeat(2,50%); 
+              grid-template-areas: "sidebar content";
+              
+            }
+            
+            .texts1{
+                
+                grid-area: content;
+                text-align: center;
+                font-size: 28px;
+                letter-spacing:-0.015em;
+                line-height:90px ;
+                margin: 12px 25px 45px 45px;
+                }
+                #story1{
+                    
+                    width: 667px;
+                   justify-content: center;
+            
+                }
+            
+                .storyrow2{
+                    display: grid;
+                    grid-template-columns: repeat(2,50%); 
+                    grid-template-areas: " content sidebar";
+                    
+                  }
+                  
+                  .texts2{
+                      
+                      grid-area: content;
+                      text-align: center;
+                      font-size: 33px;
+                      letter-spacing:-0.015em;
+                      line-height:75px ;
+                      margin: 105px 45px 45px 45px;
+                      }
+                      #story2{
+            
+                          width: 672px;
+                         justify-content: center;
+                  
+                      }
+                      .storysrow3{
+                        display: grid;
+                        grid-template-columns: repeat(2,50%); 
+                        grid-template-areas: "sidebar content";
+                        
+                      }
+                      
+                      .texts3{
+                          
+                        grid-area: content;
+                        text-align: center;
+                        font-size: 27px;
+                        letter-spacing:-0.015em;
+                        line-height:90px ;
+                        margin: 55px 25px 45px 45px;
+                          }
+                          #story3{
+                              
+                              width: 667px;
+                             justify-content: center;
+                      
+                          }
+          
