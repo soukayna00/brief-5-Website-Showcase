@@ -10,19 +10,81 @@
 
 
 
-  li,ul{
-    text-decoration: none;
-    list-style : none;
-  }
+ 
+  /* NavBar Start */
+      nav{
+        background-color: rgb(71, 71, 71);
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem 10%;
+        color: white;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+      }
+      nav ul, li{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        padding: 0 2rem;
+        font-size: 1.6rem;
+      }  
+  /* NavBar END */
+
+
+  /* Header Start */
       
-  nav{
-    background-color: rgb(71, 71, 71);
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10%;
-    color: white;
-  }
+      header{
+        background-image: url("https://lh5.googleusercontent.com/proxy/E60bugMrz3Jw0Ty3vD1HqfrrabnAQGlHzIJjRadV1kDS_XSE0AtWuMnjW9VPvq1YeyPJK13gZw63TQYvh2RlaZq_aQm5xskpsgWW1l67gg3mkYaZr07BQqMV47onKA=w3840-h2160-p-k-no-nd-mv");
+        background-size: cover;
+        height: 100vh;
+        background-color: #ff0000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      header > p {
+        font-size: 4rem;
+        color: aliceblue;
+      }
+
+      
+  /* Header END */
+
+
+/* Main Start */
+      /* Services */
+      .ServicesGrid{
+        background-color: yellow;
+        display: grid;
+        /* margin: 30px; */
+        padding: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .ServicesGrid > .Weeding1, .Weeding2, .Weeding3 {
+        text-align: center;
+        padding: 20px;
+        background-color: cyan;
+      }
+
+      .ServicesGrid p {
+        font-size: 3rem;
+      }
+        
+
+
+
+      /* Services */
+      
+
+
+/* Main END */
+
 
    
 
