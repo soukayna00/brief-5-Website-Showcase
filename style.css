@@ -96,26 +96,7 @@ main{
       /* Image Impression Container END */
 
       /* Menu Start */
-        .MenuSec{
-          display: grid;
-          grid-gap: 20px;
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-template-rows: 150px 150px 100px;
-          /* grid-template-areas:
-        "sidebar-1  content   sidebar-2"
-        "sidebar-1  content   sidebar-2"
-        "footer     footer    footer" */
-        }
-        .MenuSec h1{
-          font-size: 2.5rem;
-        }
         
-        .MenuSec ul, li {
-          font-size: 1.5rem;
-          list-style: none;
-          text-indent: 0;
-          padding: 0;
-        }
 
       /* Menu END */
 
