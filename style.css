@@ -48,39 +48,76 @@
         font-size: 4rem;
         color: aliceblue;
       }
-
-      
   /* Header END */
 
 
 /* Main Start */
-      /* Services */
-      .ServicesGrid{
-        background-color: yellow;
-        display: grid;
-        /* margin: 30px; */
-        padding: 30px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 30px;
-        align-items: center;
-        justify-content: center;
-      }
+main{
+  width: 1005;
+}
 
-      .ServicesGrid > .Weeding1, .Weeding2, .Weeding3 {
-        text-align: center;
-        padding: 20px;
-        background-color: cyan;
-      }
+      /* Services Start */
+        .ServicesGrid{
+          background-color: yellow;
+          display: grid;
+          /* margin: 30px; */
+          padding: 30px;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 20px;
+          align-items: center;
+          justify-content: center;
+        }
 
-      .ServicesGrid p {
-        font-size: 3rem;
-      }
-        
+        .ServicesGrid > .Weeding1, .Weeding2, .Weeding3 {
+          text-align: center;
+          padding: 20px;
+          background-color: cyan;
+          
+        }
 
-
-
-      /* Services */
+        .ServicesGrid p {
+          font-size: 3rem;
+        }
+        .ServicesGrid img {
+          width: 100%;
+        }
+      /* Services END*/
       
+      /* Image Impression Container Start */
+        .ImpressionSec {
+          height: fit-content;
+        }
+
+        .ImpressionSec > img {
+          width: 100%;
+          object-fit: cover;
+        }
+
+      /* Image Impression Container END */
+
+      /* Menu Start */
+        .MenuSec{
+          display: grid;
+          grid-gap: 20px;
+          grid-template-columns: 1fr 10fr 1fr;
+          grid-template-rows: 150px 150px 100px;
+          grid-template-areas:
+        "sidebar-1  content   sidebar-2"
+        "sidebar-1  content   sidebar-2"
+        "footer     footer    footer"
+        }
+        .MenuSec h1{
+          font-size: 2.5rem;
+        }
+        
+        .MenuSec ul, li {
+          font-size: 1.5rem;
+          list-style: none;
+          text-indent: 0;
+          padding: 0;
+        }
+
+      /* Menu END */
 
 
 /* Main END */
@@ -88,4 +125,9 @@
 
    
 
+@media (max-width:700px){
+  .ServicesGrid{
+    grid-template-columns: 1fr;
+  }
+}
   
