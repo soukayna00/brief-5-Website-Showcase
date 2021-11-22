@@ -255,7 +255,7 @@ h2{
  
 .workinhourmain p {
      text-align: center;
-      line-height: 60px;
+      line-height: 20px;
       font-size: 15px;
       font-weight: normal;
        font-family: 'Poppins', sans-serif; 
@@ -279,14 +279,26 @@ h2{
 /* awards secction start  */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
-
+h2{
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+   font-family: 'Poppins', sans-serif;
+   margin :40px 40px 40px 40px;
+}
 .awardsGrid{
 display :grid;
 grid-template-columns: repeat(2,1fr); 
-margin: 50px 10px 10px 100px;
+/* margin: 50px 10px 10px 100px; */
 }
+
+.awardsGrid img{
+  width: 100%;
+  object-fit: cover;
+}
+
 .awardsGrid .p{
-  font-size: 33px;
+  font-size: 35px;
   font-family: 'Poppins', sans-serif;
 }
 h2{
