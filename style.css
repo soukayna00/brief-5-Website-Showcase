@@ -84,26 +84,194 @@ main{
       /* Services END*/
       
       /* Image Impression Container Start */
-        .ImpressionSec {
-          height: fit-content;
-        }
-
-        .ImpressionSec > img {
+        .ImpressionSec > img{
           width: 100%;
           object-fit: cover;
         }
-
       /* Image Impression Container END */
+     
 
-      /* Menu Start */
-        
+  
+     
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+      h2{
+          text-align: center;
+          font-size: 26px;
+          font-weight: bold;
+           font-family: 'Poppins', sans-serif;
+           margin :40px 40px 40px 40px;
+      }
+      .menucontainer1{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      /* grid-template-rows: repeat(1,130px); */
+      column-gap: 30px;
+      row-gap: 40px;
+      }
+      .menucontainer1 p {
+          text-align: center;
+          font-size: 15px;
+          font-weight: normal;
+           font-family: 'Poppins', sans-serif;  
+      }
+      h4{
+          text-align: center;
+          font-size: 25px;
+          font-weight: bold;
+      }
+      
+      .menucontainer2{
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          /* grid-template-rows: repeat(1,130px); */
+          column-gap: 30px;
+            row-gap: 40px;
+          }
+          .menucontainer2 p {
+              text-align: center;
+              font-size: 15px;
+              font-weight: normal;
+               font-family: 'Poppins', sans-serif;  
+               column-gap: 30px;
+                row-gap: 30px;
+          }
+          h4{
+              text-align: center;
+              font-size: 25px;
+              font-weight: bold;
+          }
+      
+          .menucontainer3{
+              display: grid;
+              grid-template-columns: repeat(3,1fr);
+              /* grid-template-rows: repeat(1,130px); */
+              column-gap: 30px;
+               row-gap: 40px;
+              }
+              .menucontainer3 p {
+                  text-align: center;
+                  font-size: 15px;
+                  font-weight: normal;
+                   font-family: 'Poppins', sans-serif;  
+              }
+              h4{
+                  text-align: center;
+                  font-size: 25px;
+                  font-weight: bold;
+              }
+      
+              .menucontainer4{
+                  display: grid;
+                  grid-template-columns: repeat(3,1fr);
+                  /* grid-template-rows: repeat(1,130px); */
+                  column-gap: 30px;
+                  row-gap: 30px;
+                  }
+                  .menucontainer4 p {
+                      text-align: center;
+                      font-size: 15px;
+                      font-weight: normal;
+                       font-family: 'Poppins', sans-serif;  
+                  }
+                  h4{
+                      text-align: center;
+                      font-size: 25px;
+                      font-weight: bold;
+                  }
+      
+                  .menucontainer5{
+                      display: grid;
+                      grid-template-columns: repeat(3,1fr);
+                      /* grid-template-rows: repeat(1,130px); */
+                      column-gap: 20px;
+                      }
+                      .menucontainer5 p {
+                          text-align: center;
+                          font-size: 15px;
+                          font-weight: normal;
+                           font-family: 'Poppins', sans-serif;  
+                      }
+                      h4{
+                          text-align: center;
+                          font-size: 25px;
+                          font-weight: bold;
+                      }
+      
+                      .menucontainer6{
+                          display: grid;
+                          grid-template-columns: repeat(3,1fr);
+                          /* grid-template-rows: repeat(1,130px); */
+                          column-gap: 20px;
+                          }
+                          .menucontainer6 p {
+                              text-align: center;
+                              font-size: 15px;
+                              font-weight: normal;
+                               font-family: 'Poppins', sans-serif;  
+                          }
+                          h4{
+                              text-align: center;
+                              font-size: 25px;
+                              font-weight: bold;
+                          }
+      
+                          .menucontainer7{
+                              display: grid;
+                              grid-template-columns: repeat(3,1fr);
+                              /* grid-template-rows: repeat(1,130px); */
+                              column-gap: 20px;
+                              }
+                              .menucontainer7 p {
+                                  text-align: center;
+                                  font-size: 15px;
+                                  font-weight: normal;
+                                   font-family: 'Poppins', sans-serif; }
+                                   h4{
+                                    text-align: center;
+                                    font-size: 25px;
+                                    font-weight: bold;
+                                }
+                               
 
-      /* Menu END */
+/* Menu END */
+                                
+                          
+/* working hour section start */
+h2{
+  font-size: 25px;
+  font-weight: bold;
+}
 
+.workinhourmain{
+  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /* grid-template-rows: repeat(1,130px); */
+  
+  }
+ 
+.workinhourmain p {
+     text-align: center;
+      line-height: 60px;
+      font-size: 15px;
+      font-weight: normal;
+       font-family: 'Poppins', sans-serif; 
+       grid-area: content; 
+  }
+  h5{
+      text-align: center;
+      font-size: 23px;
+      font-weight: bold;
+  }
+  
+  .WHour{
+    background-color: cyan;
+  }
+  #map{
+    width: 100%;
+  }
 
-/* Main END */
-
-
+  
    
 
 @media (max-width:700px){
