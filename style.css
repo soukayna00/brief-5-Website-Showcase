@@ -27,13 +27,28 @@ img{
         position: fixed;
         z-index: 1;
       }
+
+      nav > ul {
+        color: white;
+        display: flex;
+
+      }
       nav > ul, li{
         text-decoration: none;
         list-style: none;
-        display: flex;
+        /* display: flex; */
         padding: 0 2rem;
         font-size: 1.6rem;
       }  
+
+      nav > a {
+        color: white;
+      }
+
+
+      nav > img{
+        width: 160px;
+      }
   /* NavBar END */
 
 
@@ -305,7 +320,7 @@ h2{
     }
 
 
-    .footerContainer ul, li, a{
+    .footerContainer ul, li > a{
       list-style: none;
       padding: 0;
       font-size: 2rem;
@@ -679,9 +694,5 @@ h2{
     .footerContainer{
       grid-template-columns: 1fr;
     }
-      
-    
-             
-           
-            }
+  }
          /* } */
