@@ -477,9 +477,10 @@ grid-template-columns: repeat(2,1fr);
   object-fit: cover;
 }
 
-.awardsGrid .p{
-  font-size: 35px;
+.awardsGrid h4{
+  font-size: 25px;
   font-family: 'Poppins', sans-serif;
+  padding: 20px  ;
 }
 h2{
     text-align: center;
@@ -488,65 +489,42 @@ h2{
     font-family: 'Poppins', sans-serif;
     color: black;
 }
-.chefsrow1{
+.chefsrow1, .chefsrow2, .chefsrow3,
+.storyrow1, .storyrow2, .storysrow3  {
   display: grid;
   grid-template-columns: repeat(2,1fr); 
   grid-template-areas: "sidebar content";
+  align-items: center;
+  justify-content: center; 
   
 }
 
-.text1{
+.text1, .text2, .text3, .texts1, .texts2, .texts3{
     
     grid-area: content;
-    text-align: center;
+    text-align:center;
     font-size: 25px;
-    letter-spacing:-0.015em;
-    line-height:90px ;
-    margin: 55px 25px 45px 45px;
+    line-height:60px ;
+    /* align-items: center;
+    justify-content: center; */
     }
     #chefa{
       width: 100%;
       object-fit: cover;
     }
 
-    .chefsrow2{
-        display: grid;
-        grid-template-columns: repeat(2,1fr); 
-        grid-template-areas: " content sidebar";
-        
-      }
+  
       
-      .text2{
-          
-          grid-area: content;
-          text-align: center;
-          font-size: 22px;
-          letter-spacing:-0.015em;
-          line-height:75px ;
-        
-          }
-          #chefb{
+     #chefb{
 
-            width: 100%;
-            object-fit: cover;
+      width: 100%;
+      object-fit: cover;
       
           }
-          .chefsrow3{
-            display: grid;
-            grid-template-columns: repeat(2,1fr); 
-            grid-template-areas: "sidebar content";
-            
-          }
-          
-          .text3{
-              
-            grid-area: content;
-            text-align: center;
-            font-size: 22px;
-            letter-spacing:-0.015em;
-            line-height:90px ;
          
-              }
+        
+          
+        
               #chefc{
                 width: 100%;
                 object-fit: cover;
@@ -561,15 +539,7 @@ h2{
               
             }
             
-            .texts1{
-                
-                grid-area: content;
-                text-align: center;
-                font-size: 25px;
-                letter-spacing:-0.015em;
-                line-height:90px ;
-               
-                }
+            
                 #story1{
                   width: 100%;
                   object-fit: cover;
@@ -582,16 +552,7 @@ h2{
                     grid-template-areas: " content sidebar";
                     
                   }
-                  
-                  .texts2{
-                      
-                      grid-area: content;
-                      text-align: center;
-                      font-size: 25px;
-                      letter-spacing:-0.015em;
-                      line-height:75px ;
-                     
-                      }
+                       
                       #story2{
             
                         width: 100%;
@@ -604,17 +565,7 @@ h2{
                         grid-template-areas: "sidebar content";
                         
                       }
-                      
-                      
-                      .texts3{
-                          
-                        grid-area: content;
-                        text-align: center;
-                        font-size: 25px;
-                        letter-spacing:-0.015em;
-                        line-height:90px ;
-                       
-                          }
+                 
                           #story3{
                               
                             width: 100%;
