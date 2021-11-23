@@ -182,7 +182,7 @@ main{
               .menucontainer4{
                   display: grid;
                   grid-template-columns: repeat(3,1fr);
-                  /* grid-template-rows: repeat(1,130px); */
+                  /* grid-template-rows: repeat(1,130px); */                                           
                   column-gap: 30px;
                   row-gap: 30px;
                   }
@@ -201,7 +201,6 @@ main{
                   .menucontainer5{
                       display: grid;
                       grid-template-columns: repeat(3,1fr);
-                      /* grid-template-rows: repeat(1,130px); */
                       column-gap: 20px;
                       }
                       .menucontainer5 p {
@@ -219,7 +218,6 @@ main{
                       .menucontainer6{
                           display: grid;
                           grid-template-columns: repeat(3,1fr);
-                          /* grid-template-rows: repeat(1,130px); */
                           column-gap: 20px;
                           }
                           .menucontainer6 p {
@@ -237,7 +235,6 @@ main{
                           .menucontainer7{
                               display: grid;
                               grid-template-columns: repeat(3,1fr);
-                              /* grid-template-rows: repeat(1,130px); */
                               column-gap: 20px;
                               }
                               .menucontainer7 p {
@@ -631,35 +628,36 @@ h2{
   .ServicesGrid{
     grid-template-columns: 1fr;
   }
-  .menucontainer1{
-    grid-template-columns: 1fr;
-}
-.menucontainer2{
-  grid-template-columns: 1fr;
-}
-.menucontainer3{
-  grid-template-columns: 1fr;
-}
-.menucontainer4{
-  grid-template-columns: 1fr;
-}
-.menucontainer5{
-  grid-template-columns: 1fr;
-}
-.menucontainer6{
-  grid-template-columns: 1fr;
-}
-.menucontainer7{
-  grid-template-columns: 1fr;
-}
-.workinhourmain{
-  grid-template-columns: 1fr;
-}
-.awardsGrid{
-  grid-template-columns: 1fr; 
-}
 
+  .menucontainer1, .menucontainer2, 
+  .menucontainer3, .menucontainer4, .menucontainer5, .menucontainer6, 
+  .menucontainer7{
+    grid-template-columns: 1fr;
+    line-height: 30px;
+    padding: 10px 0;
+  }
+
+  .ServicesGrid, .menucontainer1, .menucontainer2, 
+  .menucontainer3, .menucontainer4, .menucontainer5, .menucontainer6, 
+  .menucontainer7 > div{
+    padding: 20px 0;
+  }
+  /* .ServicesGrid, .menucontainer1, .menucontainer2, 
+  .menucontainer3, .menucontainer4, .menucontainer5, .menucontainer6, 
+  .menucontainer7 > h4{ 
+    line-height: 30px;
+    color: red;
+  } */
+  
 /* Reverse Coolumns */
+
+.workinhourmain, .awardsGrid{
+  display: flex;
+  flex-direction: column;
+}
+.workinhourmain > div{
+  padding: 20px 0;
+}
 
   .chefsrow1, .chefsrow2, .chefsrow3{
     display: flex;
@@ -686,10 +684,12 @@ h2{
           .text1, .text2, .text3, .texts1, .texts2, .texts3{
               text-align: center;
               font-size: 15px;
-              letter-spacing:-0.015em;
-              line-height:20px ;
+              /* letter-spacing:-0.015em; */
+              line-height:20px;
               margin: 55px 25px 45px 45px;
               }
+
+
 
     .footerContainer{
       grid-template-columns: 1fr;
