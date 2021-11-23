@@ -626,7 +626,6 @@ h2{
   grid-template-columns: 1fr;
 }
 .workinhourmain{
-  
   grid-template-columns: 1fr;
   }
   .awardsGrid{
@@ -644,11 +643,9 @@ h2{
 
           .storyrow1{
             grid-template-columns: 1fr;
-            
           }
           .storyrow2{
             grid-template-columns: 1fr;
-            
           }
           
           
@@ -657,7 +654,7 @@ h2{
                 grid-template-columns: 1fr;
                 
               }
-          }
+          /* } */
 
        .storysrow3{
         grid-template-columns: 1fr;
@@ -719,4 +716,4 @@ h2{
              
            
             }
-         }
+         /* } */
