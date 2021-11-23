@@ -23,7 +23,7 @@
         position: fixed;
         z-index: 1;
       }
-      nav ul, li{
+      nav > ul, li{
         text-decoration: none;
         list-style: none;
         display: flex;
@@ -75,7 +75,7 @@ main{
           
         }
 
-        .ServicesGrid p {
+        .ServicesGrid > p {
           font-size: 3rem;
         }
         .ServicesGrid img {
