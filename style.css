@@ -283,7 +283,14 @@ h2{
 
 /* -------Footer Start------- */
 /* -------Footer Start------- */
-    .footerContainer h1{
+  .footerContainer{
+    background-color: cyan;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr ;
+  }  
+
+  .footerContainer h1{
       font-size: 3rem;
       color: black;
       text-align: left;
@@ -301,16 +308,17 @@ h2{
       text-decoration: none;
       color: black;
     }
+
+    .footerContainer ul > li{
+      /* padding: 5px 0; */
+      line-height: 2;
+    }
+
     .footerContainer ul{
       padding: 0 0 0 15px;
     }
 
-    .footerContainer{
-      background-color: cyan;
-      padding: 20px;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 2fr ;
-    }
+    
 
     .SiteMap {
       background-color: yellow;
@@ -396,7 +404,7 @@ h2{
     .myForm textarea{
       display: inline-block;
       width: 100%;
-      height: 200px;
+      height: 120px;
       margin: 7px 0px;
       padding: 12px 15px;
       border: 2px solid #000000;
@@ -631,37 +639,26 @@ h2{
   .awardsGrid{
     grid-template-columns: 1fr; 
   }
-  .chefsrow1{
-    grid-template-columns: 1fr;
+
+
+  .chefsrow1, .chefsrow2, .chefsrow3{
+    display: flex;
+    flex-direction: column;
     }
     .chefsrow2{
-      grid-template-columns: 1fr; 
-     }
-    .chefsrow3{
-      grid-template-columns: 1fr;
-          }
+      flex-direction: column-reverse;
+    }
 
-          .storyrow1{
-            grid-template-columns: 1fr;
+
+          .storyrow1, .storyrow2, .storysrow3{
+            display: flex;
+            flex-direction: column;
           }
           .storyrow2{
-            grid-template-columns: 1fr;
+            flex-direction: column-reverse;
           }
-          
-          
-            
-              .storysrow3{
-                grid-template-columns: 1fr;
-                
-              }
-          /* } */
 
-       .storysrow3{
-        grid-template-columns: 1fr;
-            
-          }
           .text1{
-            
               text-align: center;
               font-size: 15px;
               letter-spacing:-0.015em;
@@ -711,6 +708,9 @@ h2{
                         line-height:20px ;
                         margin: 55px 25px 45px 45px;
                         }
+    .footerContainer{
+      grid-template-columns: 1fr;
+    }
       
     
              
