@@ -45,9 +45,13 @@ img{
         color: white;
       }
 
-
       nav > img{
         width: 160px;
+      }
+
+      .DropMenuContainer {
+        /* position: relative; */
+        display: none;
       }
   /* NavBar END */
 
@@ -62,6 +66,7 @@ img{
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
       }
       header > p {
         font-size: 4rem;
@@ -339,16 +344,19 @@ h2{
     .SiteMap {
       background-color: yellow;
       padding: 20px;
+      order: 1;
     }
 
     .SocialMedia {
       background-color: violet;
       padding: 20px;
+      order: 2;
     }  
 
     .Contact {
       background-color: lightblue;
       /* padding: 20px; */
+      order: 3;
     }
 
     .ConatactUS {
@@ -362,6 +370,9 @@ h2{
     }
 
   /* Form Styling Start */
+      .Form{
+        order: 4;
+      }
       .FormBlock{
       align-content: center;
       display: flex;
@@ -644,6 +655,81 @@ h2{
 
     .footerContainer{
       grid-template-columns: 1fr;
+      grid-template-rows: repeat(auto auto auto auto );
+      /* grid-column-start: 4; */
+      
     }
+    .footerContainer > .Form {
+      order: 1;
+    }
+
+    .SiteMap {
+      order: 2;
+    }
+
+    .SocialMedia {
+      order: 3;
+    }  
+
+    .Contact {
+      order: 4;
+    }
+
+    .nav-links{
+      display: none;
+    }
+            /* Menu */
+            .DropMenuContainer {
+              /* position: relative; */
+              display: block;
+              /* padding: 8px; */
+          }
+
+          /* .Menu { */
+              /* background-color: #04AA6D; */
+              /* color: red; */
+              /* padding: 16px; */
+              /* font-size: 16px;
+              border: none;
+              position: relative;
+              right: 0.7rem; */
+          /* } */
+          .DropMenuIcon{
+              width: 100%;
+              /* padding: 16px; */
+              cursor: pointer;
+          }
+
+          .links {
+              display: none;
+              align-items: center;
+              text-align: center;
+              position: absolute;
+              left: 0rem;
+              top: 7.3rem;
+              background-color: rgb(71, 71, 71);
+              width: 100%;
+              /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+              z-index: 1;
+          }
+
+          .links a {
+              color: #ffffff;
+              padding: 20px 16px;
+              text-decoration: none;
+              display: block;
+              font-size: 2rem;
+          }
+
+          /* This 2 lines are responsible for the visibility
+          of the DropDop menu after Hovering over it */
+          .links a:hover {
+              background-color: rgb(0, 0, 0);
+              font-weight: 700;
+          }
+          .DropMenuContainer:hover .links {display: block;}
+
+        /* End Menu */
+
   }
          /* } */
