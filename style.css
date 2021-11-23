@@ -6,6 +6,10 @@
   margin: 0px;
   padding: 0px;
 }
+
+img{
+  width: 100%;
+}
 /* Page Set up END */
 
 
@@ -635,11 +639,12 @@ h2{
 }
 .workinhourmain{
   grid-template-columns: 1fr;
-  }
-  .awardsGrid{
-    grid-template-columns: 1fr; 
-  }
+}
+.awardsGrid{
+  grid-template-columns: 1fr; 
+}
 
+/* Reverse Coolumns */
 
   .chefsrow1, .chefsrow2, .chefsrow3{
     display: flex;
@@ -650,15 +655,20 @@ h2{
     }
 
 
-          .storyrow1, .storyrow2, .storysrow3{
-            display: flex;
-            flex-direction: column;
-          }
-          .storyrow2{
-            flex-direction: column-reverse;
-          }
+    .storyrow1, .storyrow2, .storysrow3{
+      display: flex;
+      flex-direction: column;
+    }
+    .storyrow2{
+      flex-direction: column-reverse;
+    }
+      /* .storyrow2 .s2 > img{
+        width: 100%;
+      } */
 
-          .text1{
+    /* Reverse Coolumns */
+
+          .text1, .text2, .text3, .texts1, .texts2, .texts3{
               text-align: center;
               font-size: 15px;
               letter-spacing:-0.015em;
@@ -666,48 +676,6 @@ h2{
               margin: 55px 25px 45px 45px;
               }
 
-              .text2{
-            
-                text-align: center;
-                font-size: 15px;
-                letter-spacing:-0.015em;
-                line-height:20px ;
-                margin: 55px 25px 45px 45px;
-                }
-                .text3{
-            
-                  text-align: center;
-                  font-size: 15px;
-                  letter-spacing:-0.015em;
-                  line-height:20px ;
-                  margin: 55px 25px 45px 45px;
-                  }
-        
-                  .texts1{
-            
-                    text-align: center;
-                    font-size: 15px;
-                    letter-spacing:-0.015em;
-                    line-height:20px ;
-                    margin: 55px 25px 45px 45px;
-                    }
-  
-                    .texts2{
-            
-                      text-align: center;
-                      font-size: 15px;
-                      letter-spacing:-0.015em;
-                      line-height:20px ;
-                      margin: 55px 25px 45px 45px;
-                      }
-                      .texts3{
-            
-                        text-align: center;
-                        font-size: 15px;
-                        letter-spacing:-0.015em;
-                        line-height:20px ;
-                        margin: 55px 25px 45px 45px;
-                        }
     .footerContainer{
       grid-template-columns: 1fr;
     }
