@@ -7,6 +7,8 @@
   padding: 0px;
 }
 
+
+
 img{
   width: 100%;
 }
@@ -39,10 +41,12 @@ img{
         /* display: flex; */
         padding: 0 2rem;
         font-size: 1.6rem;
+        cursor: pointer;
       }  
 
       nav > a {
         color: white;
+        cursor: pointer;
       }
 
       nav > img{
@@ -507,6 +511,10 @@ h2{
   align-items: center;
   justify-content: center; 
   
+}
+
+.chefsrow2{
+  grid-template-areas: "content sidebar";
 }
 
 .text1, .text2, .text3, .texts1, .texts2, .texts3{
