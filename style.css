@@ -64,7 +64,8 @@ img{
   /* Header Start */
       
       header{
-        background-image: url("https://lh5.googleusercontent.com/proxy/E60bugMrz3Jw0Ty3vD1HqfrrabnAQGlHzIJjRadV1kDS_XSE0AtWuMnjW9VPvq1YeyPJK13gZw63TQYvh2RlaZq_aQm5xskpsgWW1l67gg3mkYaZr07BQqMV47onKA=w3840-h2160-p-k-no-nd-mv");
+        /* background-image: url("https://lh5.googleusercontent.com/proxy/E60bugMrz3Jw0Ty3vD1HqfrrabnAQGlHzIJjRadV1kDS_XSE0AtWuMnjW9VPvq1YeyPJK13gZw63TQYvh2RlaZq_aQm5xskpsgWW1l67gg3mkYaZr07BQqMV47onKA=w3840-h2160-p-k-no-nd-mv"); */
+        background-image: url();
         background-size: cover;
         height: 100vh;
         background-color: #ff0000;
@@ -470,8 +471,9 @@ h2{
 .awardsGrid{
 display :grid;
 grid-template-columns: repeat(2,1fr); 
-grid-gap: 20px;
+grid-gap: 100px;
 /* margin: 50px 10px 10px 100px; */
+padding: 0 200px;
 }
 
 .awardsGrid img{
@@ -704,7 +706,7 @@ h2{
               text-align: center;
               position: absolute;
               left: 0rem;
-              top: 6.9rem;
+              top: 6rem;
               background-color: rgb(71, 71, 71);
               width: 100%;
               /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
