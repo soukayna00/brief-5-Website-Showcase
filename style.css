@@ -1,6 +1,6 @@
 /* Page Set up Start */
 *, html, body{
-  font-family: 'Vollkorn', serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 10px;
   box-sizing: border-box;
   margin: 0px;
@@ -77,7 +77,7 @@ img{
 
 /* Main Start */
 main{
-  width: 1005;
+  width: 100%;
 }
 
       /* Services Start */
@@ -95,11 +95,11 @@ main{
         .ServicesGrid > .Weeding1, .Weeding2, .Weeding3 {
           text-align: center;
           padding: 20px;
+          font-size: 3rem;
           background-color: cyan;
-          
         }
 
-        .ServicesGrid > p {
+        .ServicesGrid  p {
           font-size: 3rem;
         }
         .ServicesGrid img {
@@ -117,13 +117,12 @@ main{
 
   
      
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+      /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); */
       h2{
           text-align: center;
           font-size: 26px;
           font-weight: bold;
-           font-family: 'Poppins', sans-serif;
-           margin :40px 40px 40px 40px;
+          margin :40px 40px 40px 40px;
       }
       .menucontainer1{
       display: grid;
