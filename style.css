@@ -308,7 +308,7 @@ h2{
   }  
 
   .footerContainer h1{
-      font-size: 3rem;
+      font-size: 2rem;
       color: black;
       text-align: left;
       height: auto;
@@ -321,7 +321,7 @@ h2{
     .footerContainer ul, li > a{
       list-style: none;
       padding: 0;
-      font-size: 2rem;
+      font-size: 1.4rem;
       text-decoration: none;
       color: black;
     }
@@ -412,7 +412,7 @@ h2{
     }
 
     .myForm input{
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       margin: 7px 0px;
       border-radius: 0px;
       border-color: #000000;
