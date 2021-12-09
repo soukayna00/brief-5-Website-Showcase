@@ -61,6 +61,10 @@ img{
         cursor: pointer;
       }
 
+      #navlink{
+        color: #ffffff;
+      }
+
       nav > img{
         width: 160px;
       }
